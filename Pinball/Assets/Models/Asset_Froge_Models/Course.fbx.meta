@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b8c677adb9eb3034bb3b75bb98139ee6
+guid: 1a1e89583d7637f4fa2fa8702c585d44
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -7,13 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: tan(Clone)
+      name: wood(Clone)
     second: {fileID: 2100000, guid: 9a4d8b8e562078747aa0e8c9dc60d592, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: woodLight(Clone)
-    second: {fileID: 2100000, guid: 80477ecf5175f1a4481db8e68301d8df, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

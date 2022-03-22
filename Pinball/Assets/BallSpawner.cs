@@ -23,11 +23,17 @@ public class BallSpawner : MonoBehaviour
         
             int index = Random.Range(0, spawnPos.Length);
             Instantiate(ball, spawnPos[index].position, Quaternion.identity);
-           
-
-
-        
+  
 
     }
-    
+
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Y))
+        {
+            Instantiate(ball, spawnPos[0].position, Quaternion.identity);
+
+        }
+    }
 }
